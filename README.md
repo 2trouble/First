@@ -1,1 +1,1 @@
-# beatiful_mind
+# beatiful mind
