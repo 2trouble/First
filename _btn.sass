@@ -1,0 +1,49 @@
+.btn
+    display: inline-block
+    vertical-align: center
+    font-size: 1.06rem
+    color: $black
+    text-transform: uppercase
+
+    text-decoration: none //a
+
+    border: 0.067rem solid $gray //button
+    border-radius: 2em
+
+    background: none //button
+
+    font-family: inherit //button
+
+    line-height: 1.1 //button
+
+    padding: 1em 1.7em // button
+    min-width: 11.5rem
+    text-align: center
+
+    cursor: pointer //button
+
+    transition: background-color .2s linear, color .2s linear, box-shadow .2s linear, border-color .2s linear
+
+    &:focus
+        outline: none //button
+    
+    &:hover
+        background-color: $black
+        color: $white
+        box-shadow: .13rem .13rem .67rem rgba($black, 0.24)
+
+    + .btn
+        margin-left: 1rem
+
+    &--sm
+        min-width: 0
+        padding: .7em 1.1em
+        font-size: 0.93rem
+        font-weight: 700
+        border-width: 2px
+        border-color: $black
+
+    &--thin
+        min-width: 9.67rem
+
+        font-size: 0.8rem
